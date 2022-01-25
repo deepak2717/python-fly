@@ -44,13 +44,14 @@ class Fly:
             check=True
         )
 
-    def login(self, username, password, team_name):
+    def login(self, username, password, team_name, test_check):
         self.run(
             'login',
             '-c', self.concourse_url,
             '-u', username,
             '-p', password,
-            '-n', team_name
+            '-n', team_name,
+            '-k', test_check
         )
 
     def get_json(self, item, *args):
