@@ -14,7 +14,7 @@ setup(
         'parameterized'
     ],
     include_package_data=True,
-    url='https://github.com/ministryofjustice/python-fly',
+    url='https://github.com/deepak2717/python-fly',
     author='Josh Rowe',
     author_email='josh.rowe@digital.justice.gov.uk',
     classifiers=(
